@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recreativos>
+    <maquina id="111">
+        <nombre>Taburete arcade Street Fighter Ryu y Ken</nombre>
+        <altura>63-84 cm aprox</altura>
+        <tamAsiento>35 cm aprox</tamAsiento>
+        <tamBase>39 cm aprox</tamBase>
+        <distReposapiesAsiento>43 cm aprox</distReposapiesAsiento>
+        <tamReposapies>6 cm</tamReposapies>
+        <peso>4,8 kg</peso>
+        <material>Cuero sintetico, acero cromado, plastico y tela</material>
+    </maquina>
+    <maquina id="222">
+        <nombre>Taburete arcade Street Fighter Ryu y Ken</nombre>
+        <altura>63-84 cm aprox</altura>
+        <tamAsiento>35 cm aprox</tamAsiento>
+        <tamBase>39 cm aprox</tamBase>
+        <distReposapiesAsiento>43 cm aprox</distReposapiesAsiento>
+        <tamReposapies>6 cm</tamReposapies>
+        <peso>4,8 kg</peso>
+        <material>Cuero sintetico, acero cromado, plastico y tela</material>
+    </maquina>
+    <maquina id="333">
+        <nombre>Taburete arcade Mario Bros</nombre>
+        <altura>63-84 cm aprox</altura>
+        <tamAsiento>35 cm aprox</tamAsiento>
+        <tamBase>39 cm aprox</tamBase>
+        <distReposapiesAsiento>43 cm aprox</distReposapiesAsiento>
+        <tamReposapies>6 cm</tamReposapies>
+        <peso>4,8 kg</peso>
+        <material>Cuero sintetico, acero cromado, plastico y tela</material>
+    </maquina>
+</recreativos>
