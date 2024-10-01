@@ -18,6 +18,7 @@ public class Rifa {
     public static void main(String[] args) {
         Ventana ventana = new Ventana();
         JPanel panel=new JPanel();
+        Ventana ventana2=new Ventana();
         
     }
     
