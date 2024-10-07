@@ -1,0 +1,38 @@
+Lo ÚLTIMO de los cámaras WEB
+===========================
+Nombre de la cámara ¡¡ 1
+Modelo ¡¡ CÁMARA WEB EMPRESARIAL BRIO ULTRA HD PRO
+Marca ¡¡ Logitech
+DIMENSIONES altura # 27 mm 
+DIMENSIONES anchura @102 mm
+DIMENSIONES profundidad # 27 mm
+DIMENSIONES peso @ 63 g
+DIMENSIONES megapixeles # 13
+Comentarios: RightLight 3 con HDR para ofrecer imágenes nítidas en diversas condiciones de iluminación, desde luz escasa a luz solar directa 
+Nombre de la cámara ¡¡ 2
+Modelo ¡¡ CÁMARA WEB HD PRO C920s
+Marca ¡¡ Logitech
+DIMENSIONES altura # 43,3 mm
+DIMENSIONES anchura @94 mm
+DIMENSIONES profundidad # 71 mm
+DIMENSIONES peso @ 162 g
+DIMENSIONES megapixeles # 3
+Comentarios: Clip universal acoplable a trípode, para monitores, pantallas LCD o portátiles  
+Nombre de la cámara ¡¡ 3
+Modelo ¡¡ STREAMCAM
+Marca ¡¡ Logitech
+DIMENSIONES altura # 66 mm 
+DIMENSIONES anchura @58 mm 
+DIMENSIONES profundidad # 48 mm 
+DIMENSIONES peso @ 222 g
+DIMENSIONES megapixeles # -
+Comentarios: Dos micrófonos omnidireccionales con filtro de reducción de ruido  
+Nombre de la cámara ¡¡ 4
+Modelo ¡¡ 4K PRO MAGNETIC WEBCAM
+Marca ¡¡ Logitech
+DIMENSIONES altura # 3,5 cm 
+DIMENSIONES anchura @10,1 cm 
+DIMENSIONES profundidad # 2,7 cm 
+DIMENSIONES peso @ 90,2 g 
+DIMENSIONES megapixeles # -
+Comentarios:  RightLight 3 con HDR para ofrecer imágenes nítidas en diversas condiciones de  iluminación, desde luz escasa a luz solar directa. Controles de imagen con la aplicación Camera Settings opcional, para funciones de panorámica, inclinación y zoom. Dos micrófonos omnidireccionales integrados con cancelación de eco y supresión de ruido  
