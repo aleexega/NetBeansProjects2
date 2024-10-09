@@ -4,7 +4,7 @@
  */
 package ejercicioCursoJSON;
 
-import JSON.UsuarioAvanzado;
+import lecturaEscrituraJSON.UsuarioAvanzado;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
