@@ -64,28 +64,30 @@ public class Principal {
 
             }
 
-            System.out.println("Nombre " + personajeLeido.getNombre());
-            System.out.println("Altura "+personajeLeido.getAltura());
-            System.out.println("Peliculas: ");
+            System.out.println("name: " + personajeLeido.getNombre());
+            System.out.println("height: "+personajeLeido.getAltura());
+            System.out.println("films: ");
             for (Peliculas pelicula : personajeLeido.getPeliculas()) {
-                System.out.println("- Titulo: " + pelicula.getTitulo()
-                        +"\n - Id episodio: "+pelicula.getId_episodio()
-                        +"\n -Rastreo apertura: "+pelicula.getRastreo_apertura()
-                        +"\n -Director: "+pelicula.getDirector());
+                System.out.println("    title: " + pelicula.getTitulo()
+                        +"\n    episode_id: "+pelicula.getId_episodio()
+                        +"\n    opening_crawl: "+pelicula.getRastreo_apertura()
+                        +"\n    director: "+pelicula.getDirector());
                 System.out.println("");
+            }
+            System.out.println("species: ");
             for(Caracteristicas carac:personajeLeido.getCaracteristicas()){
-                System.out.println("- Nombre: "+carac.getNombre()
-                        +"\n -Clasificacion: "+carac.getClasificacion()
-                        +"\n -Designacion: "+carac.getDesignacion()
-                        +"\n -Altura media: "+carac.getAltura_media()
-                        +"\n -Color piel: "+carac.getColor_piel()
-                        +"\n -Color pelo: "+carac.getColor_pelo()
-                        +"\n -Años vida: "+carac.getAños_vida()
-                        +"\n -Lenguaje: "+carac.getLenguaje());
+                System.out.println("    name: "+carac.getNombre()
+                        +"\n    classification: "+carac.getClasificacion()
+                        +"\n    designation: "+carac.getDesignacion()
+                        +"\n    average_height: "+carac.getAltura_media()
+                        +"\n    skin_colors: "+carac.getColor_piel()
+                        +"\n    hair_colors: "+carac.getColor_pelo()
+                        +"\n    average_lifespan: "+carac.getAños_vida()
+                        +"\n    language: "+carac.getLenguaje());
             }            
                 
                 
-            }
+            
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
