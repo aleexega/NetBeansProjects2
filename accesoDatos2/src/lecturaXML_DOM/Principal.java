@@ -18,7 +18,7 @@ public class Principal {
     public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-        Document document = builder.parse(new File("src\\XMLxDOM\\empleados.xml"));
+        Document document = builder.parse(new File("src//lecturaXML_DOM//empleados.xml"));
         document.getDocumentElement().normalize();
 
         Element root = document.getDocumentElement();
