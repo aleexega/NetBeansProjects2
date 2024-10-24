@@ -51,7 +51,7 @@ public class Enfermero2 extends Thread{
         }
     }
 
-    @Override
+@Override
     public void run() {
         System.out.println("El enfermero " + this.nombre
                 + " COMIENZA A VACUNAR LA COMPRA DEL CLIENTE " + lista.getNombre()
@@ -65,5 +65,5 @@ public class Enfermero2 extends Thread{
         System.out.println("El enfermero " + this.nombre + " ha terminado de vacunar"
                 + lista.getNombre() + " en el tiempo "
                 + (System.currentTimeMillis() - inicio) / 1000 + " seg");
-    }
+    }    
 }

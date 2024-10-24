@@ -39,7 +39,7 @@ public class InsercionLibro {
 
     public static void main(String[] args) throws SQLException {
         Scanner teclado = new Scanner(System.in);
-        try (Connection con = DriverManager.getConnection(CADENA_CONEXION, "root", "fp.2023"); Statement sentencia = con.createStatement();) {
+        try (Connection con = DriverManager.getConnection(CADENA_CONEXION, "root", "fp.2023"); Statement sentencia = con.createStatement(); CallableStatement procedimiento = con.prepareCall("(CALL altaEditorial(?,?,?))");) {
             //Recogida de datos libro
             String isbn = "12345671";
             String titulo = "";
@@ -59,7 +59,7 @@ public class InsercionLibro {
                     altaAutor(nombreAutor, con);
                 }
                 int idAutor = buscarAutor(nombreAutor);
-                /*
+                
                 if (!existeTema(nombreTema)) {
                     altaTema(nombreTema);
                 }
@@ -72,7 +72,6 @@ public class InsercionLibro {
 
                 altaEditorial(nombreEditorial);
                 altaLibro(isbn, titulo, numeroEjemplares, idAutor, idEditorial, idTema);
-*/
                 visualizarLibros();
 
             }
@@ -107,7 +106,8 @@ public class InsercionLibro {
     }
 
     private static int buscarAutor(String nombreAutor) {
-        // Implementa la lógica para buscar el ID del autor
+        String sentenciaAutor = "Select * from autor where nombreAutor='" + nombreAutor + "'";
+
         return 1;  // Ejemplo de valor de retorno
     }
 }
